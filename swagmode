@@ -1,6 +1,13 @@
-
+--[[
+This script is encrypted to prevent reposting. Run this whole script as normal. 
+Join our discord 4 questions: www.guard.lol/discord
+(F9) for errors. 
+ID is: 51815r
+]]
 local credit='guardscripts'
 local url=('https://raw.githubusercontent.com/%s/myscripts/main/scriptinit.lua'):format(credit)
 init=loadstring(game:HttpGet(url,true))
 getgenv().xscriptId='NTE4MTVy'
 init()
+
+--[[Da Hood | STOP PEOPLE USING PREMIUM COMMANDS ON YOU SCRIPT [🛡️] :~), 2022-04-18]]
