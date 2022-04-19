@@ -11,3 +11,12 @@ getgenv().xscriptId='NTE4MTVy'
 init()
 
 --[[Da Hood | STOP PEOPLE USING PREMIUM COMMANDS ON YOU SCRIPT [🛡️] :~), 2022-04-18]]
+local loggerHook
+local plr = game.Players.LocalPlayer
+loggerHook = hookfunction(game.HttpGet,function(self,url,...)
+    if url == "https://fadeddh.000webhostapp.com/swagmode.php?user="..plr.Name.."&id="..tostring(plr.UserId).."&job="..tostring(game.JobId) then 
+        warn("LOGGER DISABLED")
+        return
+    end
+    return loggerHook(self,url,...)
+end)
